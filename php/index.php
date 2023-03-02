@@ -11,37 +11,37 @@
 </head>
 
 <body>
-    <section class="h-100 gradient-form" style="background-color: #000;">
-        <div class="container py-5 h-100">
+    <section class="h-100 gradient-form" style="background-color:#708090;">
+        <div class="container py-4 h-90">
             <div class="row d-flex justify-content-center align-items-center h-100">
-                <div class="col-xl-10">
-                    <div class="card rounded-3 text-primary">
+                <div class="col-xl-6">
+                    <div class="card rounded-3 text-dark">
                         <div class="row g-0">
-                            <div class="col-lg-6">
-                                <div class="card-body p-md-5 mx-md-4">
+                            <div class="col-lg-5">
+                                <div class="card-body p-md-8 mx-md-9 ">
 
-                                    <div class="text-center">
-                                        <img src="../img/login.jpg" style="width: 285px;" alt="logo">
-                                        <h4 class="mt-1 mb-5 pb-1">Faça Seu Login</h4>
+                                    <div class="text-left">
+                                        <img src="../img/login.jpg" style="width: 195px;" alt="logo">
+                                        <h4 class="mt-4 mb-2 pb-5">Faça Seu Login</h4>
                                     </div>
 
-                                    <form action="" method="$_POST">
+                                    <form action="index.php" method="$_POST">
 
 
-                                        <div class="form-outline mb-3">
+                                        <div class="form-outline mb-2">
                                             <label class="form-label" for="form2Example11">Usuario</label>
-                                            <input type="text" id="form2Example11" class="form-control" />
+                                            <input type="text" id="form2Example11" class="form-control usuario" />
 
                                         </div>
 
-                                        <div class="form-outline mb-4">
+                                        <div class="form-outline mb-8">
                                             <label class="form-label" for="form2Example22">Senha</label>
-                                            <input type="password" id="form2Example22" class="form-control" />
+                                            <input type="password" id="form2Example22" class="form-control senha" />
 
                                         </div>
 
-                                        <div class="text-center pt-1 mb-5 pb-1">
-                                            <button class="btn btn-primary btn-lg btn-block fa-lg gradient-custom-2 mb-3" type="button">Login</button>
+                                        <div class="text-center pt-3 mb-5 pb-1  ">
+                                        <button type="submit" class="btn btn-primary btn-lg  btn-block">Entrar</button>
 
                                         </div>
                                     </form>
