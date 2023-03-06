@@ -16,7 +16,7 @@
     <form action="" class="form-horizontal mt-5">
         <fieldset>
 
-            <div class=" col-9 mx-auto align-self-center p-5" style="background-color:#fff; ">
+            <div class=" col-9 mx-auto align-self-center p-5" style="background-color:#ccc; ">
                 <div class="panael-heading bg-black text-center mt-2">
                     <h1 class=" text-white">Cadastro de Clientes</h1>
                 </div>
@@ -31,13 +31,14 @@
                 </div>
                 <div class="form-group ">
                     <div class="col-md-2 ">
-                    <img src="../img/images.jpg" class="img-fluid form-control" alt="...">
+                        <img src="../img/images.jpg" class="img-fluid form-control" alt="...">
                     </div>
                 </div>
                 <div class="form-group ">
-               
+
                     <label for="nome" class="col-md-2 control-label ">Nome<h11>*</h11></label>
                     <div class="col-md-8">
+
                         <input type="text" id="nome" name="nome" placeholder="" class="form-control input-md" required>
                     </div>
                 </div>
@@ -154,7 +155,7 @@
 
                 </div>
                 <div class="form-group">
-                    <label for="estado civil"  class="col-md-2 control-label">Estado Civil<h11>*</h11></label>
+                    <label for="estado civil" class="col-md-2 control-label">Estado Civil<h11>*</h11></label>
                     <div class="col-md-2">
                         <select name="estado civil" id="estado civil" class="form-control form-select">
                             <option value=""></option>
@@ -217,36 +218,46 @@
                                     Sim
                                 </label>
                             </span>
-                            <input type="text" id="enc_institicao" name="enc"  class="form-control" placeholder="Instituição">
+                            <input type="text" id="enc_institicao" name="enc" class="form-control" placeholder="Instituição">
                         </div>
-                        
+
                     </div>
                     <label for="encaminamento" class="col-md-2 control-label">Aluno FAP-Boletin<h11>*</h11></label>
                     <div class="col-md-4">
                         <div class="input-group">
                             <span class="input-group-text">
-                            <label class="radio-inline" for="radio-0">
-                                    <input type="radio" name="aluno" id="enc" value="nao"  required>
+                                <label class="radio-inline" for="radio-0">
+                                    <input type="radio" name="aluno" id="enc" value="nao" required>
                                     Não
                                 </label>
                                 <label class="radio-inline" for="radio-1">
-                                    <input type="radio" name="enc" id="enc" value="sim" >
+                                    <input type="radio" name="enc" id="enc" value="sim">
                                     Sim
                                 </label>
                             </span>
-                            <input type="text" id="enc" name="curso"  class="form-control" placeholder="Curso">
+                            <input type="text" id="enc" name="curso" class="form-control" placeholder="Curso">
                         </div>
                     </div>
                 </div>
                 <div class="form-group">
-                <label for="mensagem" class="col-md-2 control-label">Mensagem<h11>*</h11></label>
-                <div class="col-md-4">
-                <div class="input-group">
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                </div>
+                    <label for="mensagem" class="col-md-2 control-label">Mensagem<h11>*</h11></label>
+                    <div class="col-md-4">
+                        <div class="input-group">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </div>
 
                 </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label" for="Cadastrar"></label>
+                    <div class="col-md-8">
+                        <button id="Cadastrar" name="Cadastrar" class="btn btn-success" type="Submit">Cadastrar</button>
+                        <button id="Cancelar" name="Cancelar" class="btn btn-danger" type="Reset">Cancelar</button>
+                    </div>
+                </div>
+
+            </div>
+            </div>
 
             </div>
 
